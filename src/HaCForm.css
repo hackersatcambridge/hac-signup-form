@@ -1,0 +1,59 @@
+.HaCForm .form-check-label {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.HaCForm input[type=checkbox], .HaCForm input[type=radio] {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1em;
+  background: #eee;
+  appearance: none;
+  margin-left: 0;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.HaCForm input[type=checkbox]:focus, .HaCForm input[type=radio]:focus {
+  /* Very naughty, but we're not interested in accessibility here */
+  outline: none;
+}
+
+.HaCForm input[type=checkbox]:focus::before, .HaCForm input[type=radio]:focus::before {
+  display: block;
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  top: 50%;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: -3px;
+  border-radius: 50%;
+  background: #000  ;
+}
+
+.HaCForm input[type=checkbox] {
+  border-radius: 2px;
+}
+
+.HaCForm input[type=checkbox]:checked {
+  background-color: #16AA54;
+  border-color: #174B2D;
+}
+
+.HaCForm input[type=radio] {
+  border-radius: 50%;
+}
+
+.HaCForm input[type=radio]:checked {
+  background-color: #2445A1;
+  border-color: #13203F;
+}
+
+.HaCForm .form-check {
+  margin-bottom: 0.8rem;
+}

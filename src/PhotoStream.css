@@ -1,0 +1,34 @@
+.PhotoStream {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+}
+
+.PhotoStream__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.PhotoStream__image--active {
+  opacity: 1;
+}
+
+.PhotoStream__image--contain {
+  background-size: contain;
+}
+

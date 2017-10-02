@@ -1,0 +1,11 @@
+.ApplyHero {
+  background-color: #2E113A;
+  padding: 8rem 1rem;
+}
+
+.ApplyHero__logo {
+  width: 500px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
