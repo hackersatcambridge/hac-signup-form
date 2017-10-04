@@ -1,10 +1,27 @@
 .ApplyHero {
+  display: flex;
+  height: 16rem;
+}
+
+.ApplyHero__section {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.ApplyHero__section--hac {
   background-color: #2E113A;
-  padding: 8rem 1rem;
+}
+
+.ApplyHero__section--hc {
+  background-color: #000;
 }
 
 .ApplyHero__logo {
-  width: 500px;
+  width: 400px;
   max-width: 100%;
   display: block;
   margin: auto;

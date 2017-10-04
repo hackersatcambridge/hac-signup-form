@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 import PhotoStream from './PhotoStream';
 import HaCApply from './HaCApply';
+import Settings from './Settings';
 
 const PHOTOS = 'photos';
 const FORM = 'form';
+const SETTINGS = 'settings';
 
 export default class Router extends Component {
   state = {
@@ -23,15 +25,20 @@ export default class Router extends Component {
     this.showRoute(FORM);
   }
 
+  onSettings = () => {
+    this.showRoute(SETTINGS);
+  }
+
   render() {
-    if (this.state.showing === PHOTOS) {
-      return <PhotoStream onFinish={this.onPhotosFinish} />;
-    }
-
-    if (this.state.showing === FORM) {
+    switch (this.state.showing) {
+    case PHOTOS:
+      return <PhotoStream onFinish={this.onPhotosFinish} onSettings={this.onSettings} />;
+    case FORM:
       return <HaCApply onFinish={this.onFormFinish} />;
+    case SETTINGS:
+      return <Settings onFinish={this.onFormFinish} />;
+    default:
+      return null;
     }
-
-    return null;
   }
 }

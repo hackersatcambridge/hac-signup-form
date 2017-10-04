@@ -53,31 +53,15 @@ class HaCForm extends Component {
       <Form onSubmit={this.submitForm} className="HaCForm">
         <FormGroup>
           <Label size="lg">What is your full name?</Label>
-          <Input size="lg" placeholder="Cameron Bridge" required name="name" type="text"/>
+          <Input size="lg" required name="name" type="text"/>
         </FormGroup>
         <FormGroup>
-          <Label size="lg">What is your email address?</Label>
-          <Input type="email" size="lg" placeholder="aaa999@cam.ac.uk" required name="email"/>
+          <Label size="lg">What is your CRSid or email address?</Label>
+          <Input type="text" size="lg" required name="email"/>
         </FormGroup>
         <FormGroup>
           <Label size="lg">What is your field of study?</Label>
-          <Input type="text" size="lg" placeholder="Computer Science" required name="field-of-study"/>
-        </FormGroup>
-        <FormGroup tag="fieldset">
-          <Label size="lg">Are you a fresher this year?</Label>
-          <RadioFields
-            name="fresher"
-            required
-            fields={[
-              {
-                value: '1',
-                label: 'Yes',
-              },
-              {
-                value: '0',
-                label: 'No',
-              },
-            ]} />
+          <Input type="text" size="lg" name="field-of-study"/>
         </FormGroup>
         <FormGroup tag="fieldset">
           <Label size="lg">Do you have any programming experience?</Label>
@@ -129,7 +113,7 @@ class HaCForm extends Component {
               },
               {
                 value: 'volunteering-hackathons',
-                label: ' Volunteering to help make our hackathons a success',
+                label: 'Volunteering to help make our hackathons a success',
               },
               {
                 value: 'running-workshops',

@@ -3,6 +3,7 @@ import classnames from 'classnames';
 
 import './PhotoStream.css';
 import { shuffledImages } from './images';
+import hacLogo from './hac-logo-light.svg';
 
 export default class PhotoStream extends Component {
   images = shuffledImages();
@@ -29,7 +30,7 @@ export default class PhotoStream extends Component {
 
   render() {
     return (
-      <div className="PhotoStream" onClick={this.props.onFinish}>
+      <div className="PhotoStream">
         {this.images.map((image, index) => (
           <div
             key={index}
@@ -45,8 +46,10 @@ export default class PhotoStream extends Component {
             style={{
               backgroundImage: `url(${image.src})`,
             }}
+            onClick={this.props.onFinish}
           />
         ))}
+        <img className="PhotoStream__logo" src={hacLogo} onClick={this.props.onSettings} />
       </div>
     );
   }
