@@ -1,3 +1,12 @@
+# HaC Signup Form
+
+This is an online form designed to take the details of people interested in Hackers at Cambridge.
+
+It has a principle goal of being able to work offline. We do this by storing the results
+on-device, and then allowing them to be downloaded.
+
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
