@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.5f615ed1.css",
-  "main.css.map": "static/css/main.5f615ed1.css.map",
-  "main.js": "static/js/main.8a04492a.js",
-  "main.js.map": "static/js/main.8a04492a.js.map",
+  "main.css": "static/css/main.99cfb91a.css",
+  "main.css.map": "static/css/main.99cfb91a.css.map",
+  "main.js": "static/js/main.bbb27ef1.js",
+  "main.js.map": "static/js/main.bbb27ef1.js.map",
   "static/media/1.jpg": "static/media/1.bc366ffd.jpg",
   "static/media/10.jpg": "static/media/10.a15059be.jpg",
   "static/media/11.jpg": "static/media/11.abed0615.jpg",
@@ -16,6 +16,8 @@
   "static/media/19.jpg": "static/media/19.f346da5d.jpg",
   "static/media/2.jpg": "static/media/2.00817a78.jpg",
   "static/media/20.jpg": "static/media/20.9d0853b2.jpg",
+  "static/media/21.jpg": "static/media/21.67b11d29.jpg",
+  "static/media/22.jpg": "static/media/22.1eab6ea0.jpg",
   "static/media/3.jpg": "static/media/3.d8925af3.jpg",
   "static/media/4.jpg": "static/media/4.0dc84f4a.jpg",
   "static/media/5.jpg": "static/media/5.51f580e2.jpg",
@@ -24,5 +26,6 @@
   "static/media/8.jpg": "static/media/8.2b6ec831.jpg",
   "static/media/9.jpg": "static/media/9.f092711a.jpg",
   "static/media/hac-logo-light.svg": "static/media/hac-logo-light.1ffce529.svg",
-  "static/media/hc-logo-light.svg": "static/media/hc-logo-light.aad779c7.svg"
+  "static/media/hc-logo-light.svg": "static/media/hc-logo-light.aad779c7.svg",
+  "static/media/hc-logo.png": "static/media/hc-logo.a49984ae.png"
 }
