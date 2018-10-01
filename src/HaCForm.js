@@ -11,7 +11,7 @@ function serializeFormElement(element) {
       // We serialize checkboxes as arrays because we make assumptions and we're lazy
       return element.checked ? { [element.name]: [element.value] } : { };
     }
-    
+
     if (element.type === 'radio') {
       return element.checked ? { [element.name]: element.value } : { };
     }
@@ -24,7 +24,7 @@ function serializeFormElement(element) {
 
 function serializeForm(formElement) {
   const values = { };
-  
+
   for (const element of formElement.elements) {
     const serialized = serializeFormElement(element);
 
@@ -102,10 +102,6 @@ class HaCForm extends Component {
               {
                 value: 'attending-workshops',
                 label: 'Attending workshops and talks on programming and interesting technology',
-              },
-              {
-                value: 'vr-hub',
-                label: 'Participating in the latest virtual reality tech (VR Hub)'
               },
               {
                 value: 'hac-nights',
