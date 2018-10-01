@@ -119,6 +119,10 @@ class HaCForm extends Component {
                 value: 'writing',
                 label: 'Writing blog posts or creating YouTube videos about cool tech',
               },
+              {
+                value: 'committee',
+                label: 'Organising hackathons and workshops'
+              }
             ]} />
         </FormGroup>
         <Row>
