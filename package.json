@@ -2,9 +2,11 @@
   "name": "hac-freshers-form",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hackersatcambridge.github.io/hac-signup-form",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "classnames": "^2.2.5",
+    "gh-pages": "^2.0.0",
     "papaparse": "^4.3.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -16,6 +18,8 @@
     "react-scripts": "1.0.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
