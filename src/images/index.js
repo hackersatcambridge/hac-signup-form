@@ -18,6 +18,8 @@ import image17 from './17.jpg';
 import image18 from './18.jpg';
 import image19 from './19.jpg';
 import image20 from './20.jpg';
+import image21 from './21.jpg';
+import image22 from './22.jpg';
 
 const IMAGES = [
   { src: image1 },
@@ -41,6 +43,8 @@ const IMAGES = [
   { src: image18 },
   { src: image19 },
   { src: image20 },
+  { src: image21 },
+  { src: image22 },
 ];
 
 function shuffleArray(array) {

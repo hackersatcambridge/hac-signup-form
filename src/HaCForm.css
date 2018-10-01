@@ -39,6 +39,11 @@
   border-radius: 2px;
 }
 
+.HacForm .form-control-lg {
+  background-color: #36393E;
+  color: #FFFFFF;
+}
+
 .HaCForm input[type=checkbox]:checked {
   background-color: #28a745;
   border-color: #1D7E32;

@@ -3,6 +3,12 @@
   height: 16rem;
 }
 
+.ApplyFooter {
+  background-color: #819595;
+  color: #FFF;
+  padding: 1rem;
+}
+
 .ApplyHero__section {
   flex: 1 1 auto;
   display: flex;
@@ -17,7 +23,7 @@
 }
 
 .ApplyHero__section--hc {
-  background-color: #000;
+  background-color: #FFF;
 }
 
 .ApplyHero__logo {
